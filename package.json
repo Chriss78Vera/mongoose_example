@@ -1,0 +1,25 @@
+{
+  "name": "mongoose-hexagonal-cuidado-mascota",
+  "version": "1.0.0",
+  "description": "Backend sencillo con arquitectura hexagonal, Node.js, Express y Mongoose.",
+  "main": "src/server.js",
+  "author": "Christopher Vera y Jordan Paillacho",
+  "license": "ISC",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongoose",
+    "hexagonal"
+  ],
+
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}
