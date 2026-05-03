@@ -1,4 +1,4 @@
-# Backend cuidado_mascota
+# CRUD Cuidado Mascota
 
 Backend sencillo creado con Node.js, Express, Mongoose y arquitectura hexagonal.
 
@@ -114,16 +114,6 @@ http://localhost:3000/api/cuidado-mascota
   "nombre_responsable": "Laura Gomez"
 }
 ```
-
-## Postman
-
-El archivo para probar la API esta en:
-
-```txt
-postman/cuidado_mascota.postman_collection.json
-```
-
-Importalo en Postman y ejecuta las peticiones usando la variable:
 
 ```txt
 base_url = http://localhost:3000
