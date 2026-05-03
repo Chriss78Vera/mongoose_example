@@ -37,8 +37,8 @@ src/
 Crear un archivo `.env` basado en `.env.example`:
 
 ```env
-PORT=3000
-MONGODB_URI=mongodb://127.0.0.1:27017/cuidado_mascota_db
+PORT=
+MONGODB_URI=
 ```
 
 ## Instalacion
